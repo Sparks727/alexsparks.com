@@ -35,7 +35,7 @@ function Article({ article }) {
 export const metadata = {
   title: 'Articles',
   description:
-    'Discover the essential software tools I rely on for success.',
+    'Curious about the free software that helps me thrive? Dive into my essential picks for business growth.',
 }
 
 export default async function ArticlesIndex() {
@@ -43,8 +43,8 @@ export default async function ArticlesIndex() {
 
   return (
     <SimpleLayout
-      title="Boost Your Business With Free Software"
-      intro="Discover the essential software tools I rely on for success."
+      title="Free Software Solutions for Businesses"
+      intro="Curious about the free software that helps me thrive? Dive into my essential picks for business growth."
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">

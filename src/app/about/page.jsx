@@ -68,7 +68,7 @@ export default function About() {
             In my free time as a kid I would disemble & help fix Microsoft system hardware’s such as consoles and controllers.
             </p>
             <p>
-              While my upbringing involved frequent moves, I'm happy to call Clearwater, FL home. Love this area and couldn't see my self living anywhere else.
+              While my upbringing involved frequent moves, Florida living is perfect for me, but the idea of a mountain cabin retreat is a long-term dream.
               When I'm not diving into the world of technology, I'm planning my next adventure. 
               Now a seasoned traveler, I have explored almost 20 states in the US and ventured abroad to destinations like Netherlands, Germany, and Puerto Rico.
               At home, I enjoy family time with my partner Jordan, son Easton, and our canine companions, Balto (a Blue Heeler) and Kylo (a Blue Heeler/Staffordshire Terrier mix).

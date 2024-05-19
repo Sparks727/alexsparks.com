@@ -10,39 +10,32 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'OmniLocal',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'We help with Google Local Service Ads, Google Business Profile optimization, Local SEO, SEM/PPC , Reputation management, and Technical education.',
+    link: { href: 'https://www.omnilocal.com/', label: 'omnilocal.com' },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
+    name: 'Sparks Stack',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'Simplifies the often-confusing process of choosing business software.',
+    link: { href: 'https://www.sparksstack.com/', label: 'sparksstack.com' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'Blue Sky Roofing',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+      'We use modern technology to save you money, communicate proactively, and give you an amazing final product.',
+    link: { href: 'https://www.blueskyroofing.com/', label: 'blueskyroofing.com' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: 'GGMS',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'Follow up system designed for Sierra Interactive platform with video landing pages, automations, action plans, smart filters, tags, and contact templates.',
+    link: { href: 'https://www.ggms.com/', label: 'ggms.com' },
     logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
   },
 ]
 
@@ -58,15 +51,15 @@ function LinkIcon(props) {
 }
 
 export const metadata = {
-  title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  title: 'career',
+  description: 'Building the Future: My Experience in Tech',
 }
 
-export default function Projects() {
+export default function career() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Building the Future: My Experience in Tech"
+      intro="I'm passionate about building user-centric software and websites that make a difference. Here are some of the projects I'm most proud of from my time at tech companies"
     >
       <ul
         role="list"
