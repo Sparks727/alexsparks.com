@@ -12,7 +12,7 @@ const projects = [
   {
     name: 'OmniLocal',
     description:
-      'We help with Google Local Service Ads, Google Business Profile optimization, Local SEO, SEM/PPC , Reputation management, and Technical education.',
+      'We help with Google Local Service Ads, Google Business Profile optimization, Local SEO, SEM/PPC, Reputation management, and Technical education.',
     link: { href: 'https://www.omnilocal.com/', label: 'omnilocal.com' },
     logo: logoPlanetaria,
   },
