@@ -270,10 +270,10 @@ export default async function Home() {
             helps businesses take control of their local online presence.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="https://www.facebook.com/OmniLocalCo/" aria-label="Facebook" icon={XIcon} />
+            <SocialLink href="https://x.com/AlexOmniLocal" aria-label="X" icon={XIcon} />
             <SocialLink
-              href="https://www.youtube.com/@OmniLocalai"
-              aria-label="Subscribe on Youtube"
+              href="https://www.instagram.com/alexomnilocal/"
+              aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
