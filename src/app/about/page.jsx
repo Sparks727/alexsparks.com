@@ -58,19 +58,19 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Im Alex Sparks and Im helping design the
+            I'm Alex Sparks and I'm helping design the
             future.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
             I have a deep passion for technology and a lifelong curiosity about how computers tick.
-            My fascination with technology began at a young age, fueled by gaming systems like the Nintendo 64 and Gameboys.
-            In my free time as a kid I would disemble & help fix Microsoft system hardware’s such as consoles and controllers.
+            My fascination with technology began at a young age, fueled by gaming systems like the Nintendo 64 and Gameboy.
+            In my free time as a kid, I would dissemble & help fix Microsoft hardware such as consoles and controllers.
             </p>
             <p>
-              While my upbringing involved frequent moves, Florida living is perfect for me, but the idea of a mountain cabin retreat is a long-term dream.
-              When Im not diving into the world of technology, Im planning my next adventure. 
-              Now a seasoned traveler, I have explored almost 20 states in the US and ventured abroad to destinations like Netherlands, Germany, and Puerto Rico.
+              I was born in Ohio but Florida has been my home since 1999.
+              When I'm not diving into the world of technology, I'm planning my next adventure. 
+              Now a seasoned traveler, I have explored almost 20 states in the US and ventured abroad to destinations like the Netherlands, Germany, and Puerto Rico.
               At home, I enjoy family time with my partner Jordan, son Easton, and our canine companions, Balto (a Blue Heeler) and Kylo (a Blue Heeler/Staffordshire Terrier mix).
             </p>
             <p>
@@ -87,11 +87,11 @@ export default function About() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="https://www.facebook.com/OmniLocalCo/" icon={XIcon}>
-              Follow on Facebook
+            <SocialLink href="https://x.com/AlexOmniLocal" icon={XIcon}>
+              Follow on X
             </SocialLink>
-            <SocialLink href="https://www.youtube.com/@OmniLocalai" icon={InstagramIcon} className="mt-4">
-              Subscribe to Channel
+            <SocialLink href="https://www.instagram.com/alexomnilocal/" icon={InstagramIcon} className="mt-4">
+              Follow on Instagram
             </SocialLink>
             <SocialLink href="https://github.com/Sparks727/" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
