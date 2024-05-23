@@ -11,7 +11,7 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/sparks-stack.svg'
+import logoAirbnb from '@/images/logos/sparks-stack.png'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/omnilocal.png'
 import logoStarbucks from '@/images/logos/starbucks.svg'
