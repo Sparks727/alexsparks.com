@@ -12,9 +12,9 @@ import {
   XIcon,
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/sparks-stack.png'
-import logoFacebook from '@/images/logos/facebook.svg'
+import logoFacebook from '@/images/logos/blueskyroofing.png'
 import logoPlanetaria from '@/images/logos/omnilocal.png'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoStarbucks from '@/images/logos/ggms.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
