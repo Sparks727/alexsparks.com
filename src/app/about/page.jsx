@@ -58,7 +58,7 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I'm Alex Sparks and I'm helping design the
+            Im Alex Sparks and Im helping design the
             future.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -69,7 +69,7 @@ export default function About() {
             </p>
             <p>
               I was born in Ohio but Florida has been my home since 1999.
-              When I'm not diving into the world of technology, I'm planning my next adventure. 
+              When Im not diving into the world of technology, Im planning my next adventure. 
               Now a seasoned traveler, I have explored almost 20 states in the US and ventured abroad to destinations like the Netherlands, Germany, and Puerto Rico.
               At home, I enjoy family time with my partner Jordan, son Easton, and our canine companions, Balto (a Blue Heeler) and Kylo (a Blue Heeler/Staffordshire Terrier mix).
             </p>
