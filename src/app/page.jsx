@@ -175,7 +175,7 @@ function Resume() {
   let resume = [
     {
       company: 'OmniLocal',
-      title: 'CO-Founder',
+      title: 'Co-Founder',
       logo: logoPlanetaria,
       start: '2022',
       end: {
