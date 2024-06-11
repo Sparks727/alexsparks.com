@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
             <Layout>{children}</Layout>
           </div>
         </Providers>
+        <Analytics />
       </body>
     </html>
   )
