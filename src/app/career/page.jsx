@@ -7,6 +7,7 @@ import logoCosmos from '@/images/logos/ggms.png'
 import logoHelioStream from '@/images/logos/blueskyroofing.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/omnilocal.png'
+// import logoBusinessLocation from '@/images/logos/businesslocation.png'
 
 const projects = [
   {
@@ -29,6 +30,13 @@ const projects = [
       'We use modern technology to save you money, communicate proactively, and give you an amazing final product.',
     link: { href: 'https://www.blueskyroofing.com/', label: 'blueskyroofing.com' },
     logo: logoHelioStream,
+  },
+  {
+    name: 'BusinessLocation',
+    description:
+      'Optimal Location to Open a Google Business Profile',
+    link: { href: 'https://www.businesslocation.us/', label: 'businesslocation.com' },
+    logo: logoAnimaginary,
   },
   {
     name: 'GGMS',
