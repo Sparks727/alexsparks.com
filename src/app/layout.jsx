@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             <Layout>{children}</Layout>
           </div>
         </Providers>
-        <Analytics />
+        <Analytics trackingId="G-F0RJ2C0G8W" />
       </body>
     </html>
   )
