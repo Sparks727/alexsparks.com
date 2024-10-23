@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-import ReactGA from 'react-ga4'; // Import Google Analytics library
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -24,9 +23,6 @@ import image5 from '@/images/photos/image-5.jpg'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
-// Initialize Google Analytics
-ReactGA.initialize('G-F0RJ2C0G8W');
-ReactGA.send('pageview'); // Log page view
 
 function MailIcon(props) {
   return (
