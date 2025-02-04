@@ -6,7 +6,7 @@ import logoAnimaginary from '@/images/logos/sparks-stack.png'
 import logoCosmos from '@/images/logos/ggms.png'
 import logoHelioStream from '@/images/logos/blueskyroofing.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/omnilocal.png'
+import logoOmniLocal from '@/images/logos/omnilocal.png'
 // import logoBusinessLocation from '@/images/logos/businesslocation.png'
 
 const projects = [
@@ -15,7 +15,7 @@ const projects = [
     description:
       'We help with Google Local Service Ads, Google Business Profile optimization, Local SEO, SEM/PPC, Reputation management, and Technical education.',
     link: { href: 'https://www.omnilocal.com/', label: 'omnilocal.com' },
-    logo: logoPlanetaria,
+    logo: logoOmniLocal,
   },
   {
     name: 'Sparks Stack',
@@ -59,8 +59,8 @@ function LinkIcon(props) {
 }
 
 export const metadata = {
-  title: 'career',
-  description: 'Building the Future: My Experience in Tech',
+  title: 'Software & Web Development',
+  description: 'Alex Sparks: Experienced software and web developer specializing in user-centric design. Building impactful solutions that make a difference. Explore my portfolio.',
 }
 
 export default function career() {

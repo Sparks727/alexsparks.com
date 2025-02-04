@@ -4,6 +4,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import {
+  FacebookIcon,
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
@@ -37,9 +38,9 @@ function MailIcon(props) {
 }
 
 export const metadata = {
-  title: 'About',
+  title: 'Junior Web Developer | Marketing Consultant',
   description:
-    'I’m Alex Sparks. I live in Clearwater, FL, where I design the future.',
+    'Alex Sparks: Local SEO expert, software developer, and creator of OmniLocal. Helping businesses improve online presence, manage reputation, and drive customer acquisition.',
 }
 
 export default function About() {
@@ -90,8 +91,8 @@ export default function About() {
             <SocialLink href="https://x.com/AlexOmniLocal" icon={XIcon}>
               Follow on X
             </SocialLink>
-            <SocialLink href="https://www.instagram.com/alexomnilocal/" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
+            <SocialLink href="https://www.facebook.com/alex.sparks.96558" icon={FacebookIcon} className="mt-4">
+              Follow on Facebook
             </SocialLink>
             <SocialLink href="https://github.com/Sparks727/" icon={GitHubIcon} className="mt-4">
               Follow on GitHub

@@ -12,7 +12,7 @@ export const metadata = {
       'Alex Sparks - Founder & Autonomous Problem Solver.',
   },
   description:
-    'I’m Alex - Founder & Autonomous Problem Solver.',
+    'I’m Alex Sparks, a junior web developer and entrepreneur based in Clearwater, FL. My latest project, OmniLocal, is an all-in-one software that helps businesses take control of their local online presence.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

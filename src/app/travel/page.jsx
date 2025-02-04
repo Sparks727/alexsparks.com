@@ -24,8 +24,8 @@ function Tool({ title, href, children }) {
 }
 
 export const metadata = {
-  title: 'Travel',
-  description: 'My Travel Bucket List Progress',
+  title: 'US Travel Map & Adventures',
+  description: 'Exploring America, one state at a time! See my US travel map, photos, and adventures. Get inspired and suggest my next destination!',
 }
 
 export default function Travel() {

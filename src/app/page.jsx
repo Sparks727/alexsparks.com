@@ -10,11 +10,12 @@ import {
   InstagramIcon,
   LinkedInIcon,
   XIcon,
+  FacebookIcon
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/sparks-stack.png'
-import logoFacebook from '@/images/logos/blueskyroofing.png'
-import logoPlanetaria from '@/images/logos/omnilocal.png'
-import logoStarbucks from '@/images/logos/ggms.png'
+import logoSparksStack from '@/images/logos/sparks-stack.png'
+import logoBlueSky from '@/images/logos/blueskyroofing.png'
+import logoOmniLocal from '@/images/logos/omnilocal.png'
+import logoGGMS from '@/images/logos/ggms.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -177,7 +178,7 @@ function Resume() {
     {
       company: 'OmniLocal',
       title: 'Co-Founder',
-      logo: logoPlanetaria,
+      logo: logoOmniLocal,
       start: '2022',
       end: {
         label: 'Present',
@@ -187,7 +188,7 @@ function Resume() {
     {
       company: 'Sparks Stack',
       title: 'Founder',
-      logo: logoAirbnb,
+      logo: logoSparksStack,
       start: '2023',
       end: {
         label: 'Present',
@@ -197,7 +198,7 @@ function Resume() {
     {
       company: 'Blue Sky Roofing',
       title: 'Technical Support',
-      logo: logoFacebook,
+      logo: logoBlueSky,
       start: '2022',
       end: {
         label: 'Present',
@@ -207,7 +208,7 @@ function Resume() {
     {
       company: 'GGMS Media',
       title: 'Sales & Onboarding',
-      logo: logoStarbucks,
+      logo: logoGGMS,
       start: '2020',
       end: '2022',
     },
@@ -273,9 +274,9 @@ export default async function Home() {
           <div className="mt-6 flex gap-6">
             <SocialLink href="https://x.com/AlexOmniLocal" aria-label="X" icon={XIcon} />
             <SocialLink
-              href="https://www.instagram.com/alexomnilocal/"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
+              href="https://www.facebook.com/alex.sparks.96558"
+              aria-label="Follow on Facebook"
+              icon={FacebookIcon}
             />
             <SocialLink
               href="https://github.com/Sparks727/"

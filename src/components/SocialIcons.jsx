@@ -6,6 +6,14 @@ export function XIcon(props) {
   )
 }
 
+export function FacebookIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.35C0 23.4.6 24 1.325 24h21.35C23.4 24 24 23.4 24 22.675V1.325C24 .6 23.4 0 22.675 0zm-2.675 24h-4.5v-9.5h-3v-4h3v-3c0-3.1 1.9-4.8 4.7-4.8 1.3 0 2.5.1 2.5.1v3.5h-1.4c-1.1 0-1.4.7-1.4 1.4v2h4l-1 4h-3v9.5h4.5c.1 0 .1 0 .1 0z" />
+    </svg>
+  )
+}
+
 export function InstagramIcon(props) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>

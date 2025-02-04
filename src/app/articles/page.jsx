@@ -33,9 +33,9 @@ function Article({ article }) {
 }
 
 export const metadata = {
-  title: 'Articles',
+  title: 'Best Free Software for Small Business',
   description:
-    'Curious about the free software that helps me thrive? Dive into my essential picks for business growth.',
+    'Alex Sparks shares his top picks for free software to help small businesses grow. Find essential tools for marketing, CRM, project management, and more.',
 }
 
 export default async function ArticlesIndex() {
