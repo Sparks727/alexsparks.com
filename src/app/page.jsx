@@ -267,7 +267,7 @@ export default async function Home() {
           Founder & Autonomous Problem Solver.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Alex, a junior web developer and entrepreneur based in Clearwater, FL.
+            I'm Alex, a junior web developer and entrepreneur based in Clearwater, FL.
             My latest project, OmniLocal, is an all-in-one software that 
             helps businesses take control of their local online presence.
           </p>
