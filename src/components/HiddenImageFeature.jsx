@@ -34,10 +34,10 @@ const HiddenImageFeature = () => {
                 <Image
                     key={index}
                     id={`hiddenImage-${index}`}
-                    src="/images/photos/turtle.jpg"
+                    src="/images/photos/kasey.png"
                     alt="Hidden Image"
-                    width={300}
-                    height={200}
+                    width={200}
+                    height={100}
                     style={{
                         position: 'absolute',
                         top: position.top,
