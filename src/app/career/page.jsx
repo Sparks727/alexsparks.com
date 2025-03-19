@@ -7,6 +7,7 @@ import logoOmniLocal from '@/images/logos/omnilocal.png'
 import logoGGMS from '@/images/logos/ggms.png'
 import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
 import logoBusinessLocation from '@/images/logos/businesslocation.png'
+import logoSparksStack from '@/images/logos/sparks-stack.png'
 
 const projects = [
   {
@@ -19,9 +20,9 @@ const projects = [
   {
     name: 'Sparks Stack',
     description:
-      'Simplifies the often-confusing process of choosing business software.',
+      'Google Business Profile Management Software',
     link: { href: 'https://www.sparksstack.com/', label: 'sparksstack.com' },
-    logo: logoOpenShuttle,
+    logo: logoSparksStack,
   },
   {
     name: 'Blue Sky Roofing',
