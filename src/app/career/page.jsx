@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/ggms.png'
-import logoHelioStream from '@/images/logos/blueskyroofing.png'
+import logoSparkStack from '@/images/logos/sparksstack.png'
+import logoGGMS from '@/images/logos/ggms.png'
+import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoOmniLocal from '@/images/logos/omnilocal.png'
-import logoBusinessLocation from '@/images/logos/businesslocation.png'
+import logoBusinessLocation from '@/images/logos/businesslocation'
 // import logoBusinessLocation from '@/images/logos/businesslocation.png'
 
 const projects = [
@@ -23,14 +23,14 @@ const projects = [
     description:
       'Simplifies the often-confusing process of choosing business software.',
     link: { href: 'https://www.sparksstack.com/', label: 'sparksstack.com' },
-    logo: logoAnimaginary,
+    logo: logoSparkStack,
   },
   {
     name: 'Blue Sky Roofing',
     description:
       'We use modern technology to save you money, communicate proactively, and give you an amazing final product.',
     link: { href: 'https://www.blueskyroofing.com/', label: 'blueskyroofing.com' },
-    logo: logoHelioStream,
+    logo: logoBlueSkyRoofing,
   },
   {
     name: 'BusinessLocation',
@@ -44,7 +44,7 @@ const projects = [
     description:
       'Follow up system designed for Sierra Interactive platform with video landing pages, automations, action plans, smart filters, tags, and contact templates.',
     link: { href: 'https://www.ggms.com/', label: 'ggms.com' },
-    logo: logoCosmos,
+    logo: logoGGMS,
   },
 ]
 
