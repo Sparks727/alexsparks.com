@@ -2,11 +2,10 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoSparkStack from '@/images/logos/sparksstack.png'
-import logoGGMS from '@/images/logos/ggms.png'
-import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoOmniLocal from '@/images/logos/omnilocal.png'
+import logoGGMS from '@/images/logos/ggms.png'
+import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
 import logoBusinessLocation from '@/images/logos/businesslocation'
 // import logoBusinessLocation from '@/images/logos/businesslocation.png'
 
@@ -23,7 +22,7 @@ const projects = [
     description:
       'Simplifies the often-confusing process of choosing business software.',
     link: { href: 'https://www.sparksstack.com/', label: 'sparksstack.com' },
-    logo: logoSparkStack,
+    logo: logoOpenShuttle,
   },
   {
     name: 'Blue Sky Roofing',
@@ -37,7 +36,7 @@ const projects = [
     description:
       'Optimal Location to Open a Google Business Profile',
     link: { href: 'https://www.businesslocation.us/', label: 'businesslocation.us' },
-    logo: logoBusinessLocation,
+    logo: logoOpenShuttle,
   },
   {
     name: 'GGMS',
