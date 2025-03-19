@@ -2,11 +2,12 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/businesslocation.us.png'
+import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/ggms.png'
 import logoHelioStream from '@/images/logos/blueskyroofing.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoOmniLocal from '@/images/logos/omnilocal.png'
+import logoBusinessLocation from '@/images/logos/businesslocation.png'
 // import logoBusinessLocation from '@/images/logos/businesslocation.png'
 
 const projects = [
@@ -36,7 +37,7 @@ const projects = [
     description:
       'Optimal Location to Open a Google Business Profile',
     link: { href: 'https://www.businesslocation.us/', label: 'businesslocation.us' },
-    logo: logoAnimaginary,
+    logo: logoBusinessLocation,
   },
   {
     name: 'GGMS',
