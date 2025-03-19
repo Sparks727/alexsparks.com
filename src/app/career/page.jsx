@@ -6,8 +6,7 @@ import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoOmniLocal from '@/images/logos/omnilocal.png'
 import logoGGMS from '@/images/logos/ggms.png'
 import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
-import logoBusinessLocation from '@/images/logos/businesslocation'
-// import logoBusinessLocation from '@/images/logos/businesslocation.png'
+import logoBusinessLocationUS from '@/images/logos/businesslocation.us.png'
 
 const projects = [
   {
@@ -36,7 +35,7 @@ const projects = [
     description:
       'Optimal Location to Open a Google Business Profile',
     link: { href: 'https://www.businesslocation.us/', label: 'businesslocation.us' },
-    logo: logoOpenShuttle,
+    logo: logoBusinessLocationUS,
   },
   {
     name: 'GGMS',
