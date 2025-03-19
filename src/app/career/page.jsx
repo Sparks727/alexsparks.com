@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/sparks-stack.png'
+import logoAnimaginary from '@/images/logos/businesslocation.us.png'
 import logoCosmos from '@/images/logos/ggms.png'
 import logoHelioStream from '@/images/logos/blueskyroofing.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
@@ -35,7 +35,7 @@ const projects = [
     name: 'BusinessLocation',
     description:
       'Optimal Location to Open a Google Business Profile',
-    link: { href: 'https://www.businesslocation.us/', label: 'businesslocation.com' },
+    link: { href: 'https://www.businesslocation.us/', label: 'businesslocation.us' },
     logo: logoAnimaginary,
   },
   {
