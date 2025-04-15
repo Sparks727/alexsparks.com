@@ -21,9 +21,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
-
 
 function MailIcon(props) {
   return (
@@ -81,21 +79,6 @@ function ArrowDownIcon(props) {
         strokeLinejoin="round"
       />
     </svg>
-  )
-}
-
-function Article({ article }) {
-  return (
-    <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
-        {article.title}
-      </Card.Title>
-      <Card.Eyebrow as="time" dateTime={article.date} decorate>
-        {formatDate(article.date)}
-      </Card.Eyebrow>
-      <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
-    </Card>
   )
 }
 
@@ -257,52 +240,49 @@ function Photos() {
 }
 
 export default async function Home() {
-  let articles = (await getAllArticles()).slice(0, 4)
-
   return (
     <>
-      <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          Founder & Autonomous Problem Solver.
+      <Container className="mt-16 sm:mt-32">
+        <header className="max-w-2xl">
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            Founder & Autonomous Problem Solver
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Alex, a junior web developer and entrepreneur based in Clearwater, FL.
-            My latest project, OmniLocal, is an all-in-one software that 
-            helps businesses take control of their local online presence.
+            I'm Alex Sparks, a junior web developer and entrepreneur based in Clearwater, FL. My latest project, OmniLocal, is an all-in-one software that helps businesses take control of their local online presence.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="https://x.com/AlexOmniLocal" aria-label="X" icon={XIcon} />
             <SocialLink
-              href="https://www.facebook.com/alex.sparks.96558"
-              aria-label="Follow on Facebook"
-              icon={FacebookIcon}
+              href="https://twitter.com/AlexOmniLocal"
+              aria-label="Follow on X"
+              icon={XIcon}
             />
             <SocialLink
-              href="https://github.com/Sparks727/"
+              href="https://instagram.com/alexsparks"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
+            />
+            <SocialLink
+              href="https://github.com/Sparks727"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/alex-sparks-%F0%9F%9A%80-41966a247/"
+              href="https://linkedin.com/in/alexsparks"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
+            <SocialLink
+              href="https://facebook.com/alexsparks"
+              aria-label="Follow on Facebook"
+              icon={FacebookIcon}
+            />
           </div>
-        </div>
+        </header>
       </Container>
-      <Photos />
       <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
-          </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
-            <Resume />
-          </div>
+        <div className="mx-auto grid max-w-xl grid-cols-1 gap-x-8 gap-y-20 lg:max-w-none lg:grid-cols-2">
+          <Resume />
+          <Photos />
         </div>
       </Container>
     </>
