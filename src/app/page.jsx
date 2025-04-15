@@ -12,6 +12,11 @@ import {
   XIcon,
   FacebookIcon
 } from '@/components/SocialIcons'
+import {
+  ReactIcon,
+  NextJSIcon,
+  VercelIcon
+} from '@/components/icons/TechIcons'
 import logoSparksStack from '@/images/logos/sparks-stack.png'
 import logoBlueSky from '@/images/logos/blueskyroofing.png'
 import logoOmniLocal from '@/images/logos/omnilocal.png'
@@ -223,10 +228,7 @@ function TechStackPreview() {
       <ol className="mt-6 space-y-4">
         <li className="flex gap-4">
           <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <svg viewBox="0 0 24 24" className="h-6 w-6 text-[#61DAFB]" fill="currentColor">
-              <path d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
-              <path fillRule="evenodd" clipRule="evenodd" d="M12 6.75c-2.76 0-5.25.84-7.16 2.28a.75.75 0 0 1-.84-1.26 9 9 0 0 1 16 0 .75.75 0 0 1-.84 1.26A8.25 8.25 0 0 0 12 6.75ZM4.84 9.54a.75.75 0 0 1 1.26.84 8.25 8.25 0 0 0 0 7.24.75.75 0 0 1-1.26.84 9.75 9.75 0 0 1 0-8.92Zm14.32 0a.75.75 0 0 0-1.26.84 8.25 8.25 0 0 1 0 7.24.75.75 0 0 0 1.26.84 9.75 9.75 0 0 0 0-8.92Z" />
-            </svg>
+            <ReactIcon className="h-6 w-6 text-[#61DAFB]" />
           </div>
           <dl className="flex flex-auto flex-wrap gap-x-2">
             <dt className="sr-only">Technology</dt>
@@ -241,9 +243,7 @@ function TechStackPreview() {
         </li>
         <li className="flex gap-4">
           <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <svg viewBox="0 0 24 24" className="h-6 w-6 text-black dark:text-white" fill="currentColor">
-              <path d="M11.572 0c-.176 0-.31.082-.402.248l-4.363 7.248c-.092.166-.092.332 0 .498l4.363 7.248c.092.166.226.248.402.248.176 0 .31-.082.402-.248l4.363-7.248c.092-.166.092-.332 0-.498L11.974.248C11.882.082 11.748 0 11.572 0zm5.692 8.75c-.176 0-.31.082-.402.248l-4.363 7.248c-.092.166-.092.332 0 .498l4.363 7.248c.092.166.226.248.402.248.176 0 .31-.082.402-.248l4.363-7.248c.092-.166.092-.332 0-.498l-4.363-7.248c-.092-.166-.226-.248-.402-.248z" />
-            </svg>
+            <NextJSIcon className="h-6 w-6 text-black dark:text-white" />
           </div>
           <dl className="flex flex-auto flex-wrap gap-x-2">
             <dt className="sr-only">Technology</dt>
@@ -258,9 +258,7 @@ function TechStackPreview() {
         </li>
         <li className="flex gap-4">
           <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <svg viewBox="0 0 24 24" className="h-6 w-6 text-black dark:text-white" fill="currentColor">
-              <path d="M24 22.525H0l12-21.05 12 21.05z" />
-            </svg>
+            <VercelIcon className="h-6 w-6 text-black dark:text-white" />
           </div>
           <dl className="flex flex-auto flex-wrap gap-x-2">
             <dt className="sr-only">Technology</dt>
