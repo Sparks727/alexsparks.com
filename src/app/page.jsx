@@ -258,18 +258,18 @@ function TechStackPreview() {
         </li>
         <li className="flex gap-4">
           <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <svg viewBox="0 0 24 24" className="h-6 w-6 text-[#06B6D4]" fill="currentColor">
-              <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zM6.001 12c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
+            <svg viewBox="0 0 24 24" className="h-6 w-6 text-black dark:text-white" fill="currentColor">
+              <path d="M24 22.525H0l12-21.05 12 21.05z" />
             </svg>
           </div>
           <dl className="flex flex-auto flex-wrap gap-x-2">
             <dt className="sr-only">Technology</dt>
             <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-              Tailwind CSS
+              Vercel
             </dd>
             <dt className="sr-only">Description</dt>
             <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-              Utility-first CSS framework
+              Cloud platform for static sites and Serverless Functions
             </dd>
           </dl>
         </li>
