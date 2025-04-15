@@ -33,9 +33,12 @@ function Article({ article }) {
 }
 
 export const metadata = {
-  title: 'Best Free Software for Small Business',
-  description:
-    'Alex Sparks shares his top picks for free software to help small businesses grow. Find essential tools for marketing, CRM, project management, and more.',
+  title: 'Articles by Alex Sparks - Business & Tech Insights',
+  description: 'Read articles by Alex Sparks about local SEO, business software, web development, and digital marketing strategies. Practical insights from hands-on experience.',
+  openGraph: {
+    title: 'Articles by Alex Sparks',
+    description: 'Business and technology insights from Alex Sparks.',
+  }
 }
 
 export default async function ArticlesIndex() {
@@ -43,8 +46,8 @@ export default async function ArticlesIndex() {
 
   return (
     <SimpleLayout
-      title="Free Software Solutions for Businesses"
-      intro="Curious about the free software that helps me thrive? Dive into my essential picks for business growth."
+      title="Business & Tech Insights"
+      intro="Curious about the software that helps me thrive? Dive into my essential picks for business growth."
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">

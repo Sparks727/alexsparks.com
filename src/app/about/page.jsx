@@ -38,9 +38,12 @@ function MailIcon(props) {
 }
 
 export const metadata = {
-  title: 'Junior Web Developer | Marketing Consultant',
-  description:
-    'Alex Sparks: Local SEO expert, software developer, and creator of OmniLocal. Helping businesses improve online presence, manage reputation, and drive customer acquisition.',
+  title: 'About Alex Sparks - Web Developer & Entrepreneur',
+  description: 'Learn about Alex Sparks, a web developer and entrepreneur from Clearwater, FL. Discover my journey, expertise in local SEO, and passion for creating innovative business solutions.',
+  openGraph: {
+    title: 'About Alex Sparks',
+    description: 'Web developer and entrepreneur from Clearwater, FL specializing in local SEO and business software solutions.',
+  }
 }
 
 export default function About() {

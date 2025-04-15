@@ -59,8 +59,12 @@ function LinkIcon(props) {
 }
 
 export const metadata = {
-  title: 'Software & Web Development',
-  description: 'Alex Sparks: Experienced software and web developer specializing in user-centric design. Building impactful solutions that make a difference. Explore my portfolio.',
+  title: 'Alex Sparks - Software & Web Development Portfolio',
+  description: 'Explore Alex Sparks\' portfolio of software and web development projects. From OmniLocal to BusinessLocation.us, see how I help businesses succeed online.',
+  openGraph: {
+    title: 'Alex Sparks - Development Portfolio',
+    description: 'Portfolio of web and software development projects by Alex Sparks.',
+  }
 }
 
 export default function career() {

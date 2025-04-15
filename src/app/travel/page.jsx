@@ -24,8 +24,12 @@ function Tool({ title, href, children }) {
 }
 
 export const metadata = {
-  title: 'US Travel Map & Adventures',
-  description: 'Exploring America, one state at a time! See my US travel map, photos, and adventures. Get inspired and suggest my next destination!',
+  title: 'Alex Sparks - Travel Adventures & Experiences',
+  description: 'Follow Alex Sparks\' travel adventures across America. Exploring new places, meeting new people, and finding inspiration for innovative solutions.',
+  openGraph: {
+    title: 'Alex Sparks - Travel Map',
+    description: 'Join Alex Sparks on a journey across America.',
+  }
 }
 
 export default function Travel() {
