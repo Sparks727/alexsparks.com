@@ -78,22 +78,39 @@ const techCategories = [
   },
 ]
 
-function TechCard({ item }) {
+function TechItem({ item }) {
   const Icon = item.icon
   return (
-    <Card className="flex items-center gap-4 p-6">
-      <div className={`text-2xl ${item.color}`}>
-        <Icon className="h-8 w-8" />
+    <li className="flex gap-4">
+      <div className={`relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 ${item.color}`}>
+        <Icon className="h-6 w-6" />
       </div>
-      <div>
-        <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+      <dl className="flex flex-auto flex-wrap gap-x-2">
+        <dt className="sr-only">Technology</dt>
+        <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
           {item.name}
-        </h3>
-        <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+        </dd>
+        <dt className="sr-only">Description</dt>
+        <dd className="text-xs text-zinc-500 dark:text-zinc-400">
           {item.description}
-        </p>
-      </div>
-    </Card>
+        </dd>
+      </dl>
+    </li>
+  )
+}
+
+function TechCategory({ category }) {
+  return (
+    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+        <span>{category.title}</span>
+      </h2>
+      <ol className="mt-6 space-y-4">
+        {category.items.map((item) => (
+          <TechItem key={item.name} item={item} />
+        ))}
+      </ol>
+    </div>
   )
 }
 
@@ -109,18 +126,9 @@ export default function TechStack() {
       intro="The modern web technologies that power my website and projects. Built with performance, accessibility, and developer experience in mind."
     >
       <div className="mt-16 sm:mt-20">
-        <div className="space-y-12">
+        <div className="space-y-10">
           {techCategories.map((category) => (
-            <div key={category.title}>
-              <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
-                {category.title}
-              </h2>
-              <div className="mt-6 grid gap-6 sm:grid-cols-2">
-                {category.items.map((item) => (
-                  <TechCard key={item.name} item={item} />
-                ))}
-              </div>
-            </div>
+            <TechCategory key={category.title} category={category} />
           ))}
         </div>
       </div>

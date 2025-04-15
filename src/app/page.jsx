@@ -239,50 +239,126 @@ function Photos() {
   )
 }
 
+function TechStackPreview() {
+  return (
+    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+        <BriefcaseIcon className="h-6 w-6 flex-none" />
+        <span className="ml-3">Tech Stack</span>
+      </h2>
+      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+        The modern web technologies that power my website and projects.
+      </p>
+      <ol className="mt-6 space-y-4">
+        <li className="flex gap-4">
+          <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <svg viewBox="0 0 24 24" className="h-6 w-6 text-[#61DAFB]" fill="currentColor">
+              <path d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+              <path fillRule="evenodd" clipRule="evenodd" d="M12 6.75c-2.76 0-5.25.84-7.16 2.28a.75.75 0 0 1-.84-1.26 9 9 0 0 1 16 0 .75.75 0 0 1-.84 1.26A8.25 8.25 0 0 0 12 6.75ZM4.84 9.54a.75.75 0 0 1 1.26.84 8.25 8.25 0 0 0 0 7.24.75.75 0 0 1-1.26.84 9.75 9.75 0 0 1 0-8.92Zm14.32 0a.75.75 0 0 0-1.26.84 8.25 8.25 0 0 1 0 7.24.75.75 0 0 0 1.26.84 9.75 9.75 0 0 0 0-8.92Z" />
+            </svg>
+          </div>
+          <dl className="flex flex-auto flex-wrap gap-x-2">
+            <dt className="sr-only">Technology</dt>
+            <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              React
+            </dd>
+            <dt className="sr-only">Description</dt>
+            <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+              JavaScript library for building user interfaces
+            </dd>
+          </dl>
+        </li>
+        <li className="flex gap-4">
+          <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <svg viewBox="0 0 24 24" className="h-6 w-6 text-black dark:text-white" fill="currentColor">
+              <path d="M11.572 0c-.176 0-.31.082-.402.248l-4.363 7.248c-.092.166-.092.332 0 .498l4.363 7.248c.092.166.226.248.402.248.176 0 .31-.082.402-.248l4.363-7.248c.092-.166.092-.332 0-.498L11.974.248C11.882.082 11.748 0 11.572 0zm5.692 8.75c-.176 0-.31.082-.402.248l-4.363 7.248c-.092.166-.092.332 0 .498l4.363 7.248c.092.166.226.248.402.248.176 0 .31-.082.402-.248l4.363-7.248c.092-.166.092-.332 0-.498l-4.363-7.248c-.092-.166-.226-.248-.402-.248z" />
+            </svg>
+          </div>
+          <dl className="flex flex-auto flex-wrap gap-x-2">
+            <dt className="sr-only">Technology</dt>
+            <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              Next.js
+            </dd>
+            <dt className="sr-only">Description</dt>
+            <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+              React framework for production
+            </dd>
+          </dl>
+        </li>
+        <li className="flex gap-4">
+          <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <svg viewBox="0 0 24 24" className="h-6 w-6 text-[#06B6D4]" fill="currentColor">
+              <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zM6.001 12c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
+            </svg>
+          </div>
+          <dl className="flex flex-auto flex-wrap gap-x-2">
+            <dt className="sr-only">Technology</dt>
+            <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              Tailwind CSS
+            </dd>
+            <dt className="sr-only">Description</dt>
+            <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+              Utility-first CSS framework
+            </dd>
+          </dl>
+        </li>
+      </ol>
+      <div className="mt-6">
+        <Link
+          href="/tech-stack"
+          className="inline-flex items-center gap-2 text-sm font-medium text-teal-500 hover:text-teal-600 dark:text-teal-400 dark:hover:text-teal-300"
+        >
+          View full tech stack
+          <ArrowDownIcon className="h-4 w-4 rotate-[-135deg]" />
+        </Link>
+      </div>
+    </div>
+  )
+}
+
 export default async function Home() {
   return (
     <>
-      <Container className="mt-16 sm:mt-32">
-        <header className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Founder & Autonomous Problem Solver
+      <Container className="mt-9">
+        <div className="max-w-2xl">
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            Founder & Autonomous Problem Solver.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Alex Sparks, a junior web developer and entrepreneur based in Clearwater, FL. My latest project, OmniLocal, is an all-in-one software that helps businesses take control of their local online presence.
+            I&apos;m Alex, a junior web developer and entrepreneur based in Clearwater, FL.
+            My latest project, OmniLocal, is an all-in-one software that 
+            helps businesses take control of their local online presence.
           </p>
           <div className="mt-6 flex gap-6">
+            <SocialLink href="https://x.com/AlexOmniLocal" aria-label="X" icon={XIcon} />
             <SocialLink
-              href="https://twitter.com/AlexOmniLocal"
-              aria-label="Follow on X"
-              icon={XIcon}
+              href="https://www.facebook.com/alex.sparks.96558"
+              aria-label="Follow on Facebook"
+              icon={FacebookIcon}
             />
             <SocialLink
-              href="https://instagram.com/alexsparks"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com/Sparks727"
+              href="https://github.com/Sparks727/"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/alexsparks"
+              href="https://www.linkedin.com/in/alex-sparks-%F0%9F%9A%80-41966a247/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
-            <SocialLink
-              href="https://facebook.com/alexsparks"
-              aria-label="Follow on Facebook"
-              icon={FacebookIcon}
-            />
           </div>
-        </header>
+        </div>
       </Container>
+      <Photos />
       <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-x-8 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <Resume />
-          <Photos />
+        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
+          <div className="flex flex-col gap-16">
+            <TechStackPreview />
+          </div>
+          <div className="space-y-10 lg:pl-16 xl:pl-24">
+            <Newsletter />
+            <Resume />
+          </div>
         </div>
       </Container>
     </>
