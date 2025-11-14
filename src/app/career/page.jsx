@@ -2,13 +2,12 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoOmniLocal from '@/images/logos/omnilocal.png'
 import logoGGMS from '@/images/logos/ggms.png'
 import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
 import logoBusinessLocation from '@/images/logos/businesslocation.png'
 import logoSparksStack from '@/images/logos/sparks-stack.png'
-import logoSparksPoolServices from '@/images/logos/sparks-pool-services.png'
+import logoSparksPoolServices from '@/images/logos/sparkspoolservices.webp'
 
 const projects = [
   {
