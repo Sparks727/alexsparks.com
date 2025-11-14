@@ -185,6 +185,15 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
+      <div className="mt-6">
+        <Link
+          href="/career"
+          className="inline-flex items-center gap-2 text-sm font-medium text-teal-500 hover:text-teal-600 dark:text-teal-400 dark:hover:text-teal-300"
+        >
+          View full career
+          <ArrowDownIcon className="h-4 w-4 rotate-[-135deg]" />
+        </Link>
+      </div>
     </div>
   )
 }

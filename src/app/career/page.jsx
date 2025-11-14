@@ -8,6 +8,7 @@ import logoGGMS from '@/images/logos/ggms.png'
 import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
 import logoBusinessLocation from '@/images/logos/businesslocation.png'
 import logoSparksStack from '@/images/logos/sparks-stack.png'
+import logoSparksPoolServices from '@/images/logos/sparks-pool-services.png'
 
 const projects = [
   {
@@ -30,6 +31,13 @@ const projects = [
       'We use modern technology to save you money, communicate proactively, and give you an amazing final product.',
     link: { href: 'https://www.blueskyroofing.com/', label: 'blueskyroofing.com' },
     logo: logoBlueSkyRoofing,
+  },
+  {
+    name: 'Sparks Pool Services',
+    description:
+      'Veteran-owned pool service company delivering crystal clear pools with military precision and integrity. Serving Pinellas County with residential and commercial pool cleaning services.',
+    link: { href: 'https://www.sparkspoolservices.com/', label: 'sparkspoolservices.com' },
+    logo: logoSparksPoolServices,
   },
   {
     name: 'BusinessLocation',

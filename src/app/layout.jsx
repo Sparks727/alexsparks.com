@@ -28,6 +28,14 @@ export const metadata = {
   authors: [{ name: 'Alex Sparks', url: 'https://alex-sparks.com' }],
   creator: 'Alex Sparks',
   publisher: 'Alex Sparks',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+  },
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
