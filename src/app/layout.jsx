@@ -30,10 +30,10 @@ export const metadata = {
   publisher: 'Alex Sparks',
   icons: {
     icon: [
-      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/favicon2.ico', type: 'image/x-icon' },
     ],
     apple: [
-      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/favicon2.ico', type: 'image/x-icon' },
     ],
   },
   alternates: {
