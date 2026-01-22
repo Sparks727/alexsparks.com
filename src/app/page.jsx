@@ -189,7 +189,7 @@ function Resume() {
       <div className="mt-6">
         <Link
           href="/career"
-          className="inline-flex items-center gap-2 text-sm font-medium text-teal-500 hover:text-teal-600 dark:text-teal-400 dark:hover:text-teal-300"
+          className="inline-flex items-center gap-2 text-sm font-medium text-teal-600 hover:text-teal-700 dark:text-teal-300 dark:hover:text-teal-200"
         >
           View full career
           <ArrowDownIcon className="h-4 w-4 rotate-[-135deg]" />
@@ -286,7 +286,7 @@ function TechStackPreview() {
       <div className="mt-6">
         <Link
           href="/tech-stack"
-          className="inline-flex items-center gap-2 text-sm font-medium text-teal-500 hover:text-teal-600 dark:text-teal-400 dark:hover:text-teal-300"
+          className="inline-flex items-center gap-2 text-sm font-medium text-teal-600 hover:text-teal-700 dark:text-teal-300 dark:hover:text-teal-200"
         >
           View full tech stack
           <ArrowDownIcon className="h-4 w-4 rotate-[-135deg]" />
