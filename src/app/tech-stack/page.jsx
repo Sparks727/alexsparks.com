@@ -6,6 +6,7 @@ import {
   VercelIcon,
   TailwindIcon,
   HeadlessUIIcon,
+  ShadcnUIIcon,
 } from '@/components/icons/TechIcons'
 
 const technologies = [
@@ -43,6 +44,13 @@ const technologies = [
     icon: HeadlessUIIcon,
     color: 'text-[#1A1A1A] dark:text-white',
     link: { href: 'https://headlessui.com/', label: 'headlessui.com' },
+  },
+  {
+    name: 'shadcn/ui',
+    description: 'Beautifully designed components built with Radix UI and Tailwind CSS',
+    icon: ShadcnUIIcon,
+    color: 'text-black dark:text-white',
+    link: { href: 'https://ui.shadcn.com/', label: 'ui.shadcn.com' },
   },
 ]
 

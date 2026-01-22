@@ -8,6 +8,7 @@ import logoBlueSkyRoofing from '@/images/logos/blueskyroofing.png'
 import logoBusinessLocation from '@/images/logos/businesslocation.png'
 import logoSparksStack from '@/images/logos/sparks-stack.png'
 import logoSparksPoolServices from '@/images/logos/sparkspoolservices.webp'
+import logoTHS from '@/images/logos/thsband.png'
 
 const projects = [
   {
@@ -51,6 +52,13 @@ const projects = [
       'Follow up system designed for Sierra Interactive platform with video landing pages, automations, action plans, smart filters, tags, and contact templates.',
     link: { href: 'https://www.ggms.com/', label: 'ggms.com' },
     logo: logoGGMS,
+  },
+  {
+    name: 'The Higher Standards',
+    description:
+      'A band dedicated to creating exceptional music and setting higher standards in the music industry.',
+    link: { href: 'https://www.thsband.com/', label: 'thsband.com' },
+    logo: logoTHS,
   },
 ]
 
