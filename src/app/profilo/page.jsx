@@ -82,7 +82,7 @@ export const metadata = {
   }
 }
 
-export default function career() {
+export default function Profilo() {
   return (
     <SimpleLayout
       title="Building the Future: My Experience in Tech"

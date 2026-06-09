@@ -189,10 +189,10 @@ function Resume() {
       </ol>
       <div className="mt-6">
         <Link
-          href="/career"
+          href="/profilo"
           className="inline-flex items-center gap-2 text-sm font-medium text-teal-600 hover:text-teal-700 dark:text-teal-300 dark:hover:text-teal-200"
         >
-          View full career
+          View full profilo
           <ArrowDownIcon className="h-4 w-4 rotate-[-135deg]" />
         </Link>
       </div>
