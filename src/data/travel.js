@@ -127,6 +127,7 @@ export const visitedStates = [
   'NV',
   'CO',
   'ME',
+  'MI',
 ]
 
 export const internationalTrips = [
