@@ -19,11 +19,11 @@ const projects = [
     logo: logoOmniLocal,
   },
   {
-    name: 'Sparks Stack',
+    name: 'Sparks Pool Services',
     description:
-      'Coming Soon',
-    link: { href: 'https://www.sparksstack.com/', label: 'sparksstack.com' },
-    logo: logoSparksStack,
+      'Veteran-owned pool service company delivering crystal clear pools with military precision and integrity. Serving Pinellas County with residential and commercial pool cleaning services.',
+    link: { href: 'https://www.sparkspoolservices.com/', label: 'sparkspoolservices.com' },
+    logo: logoSparksPoolServices,
   },
   {
     name: 'Blue Sky Roofing',
@@ -33,11 +33,11 @@ const projects = [
     logo: logoBlueSkyRoofing,
   },
   {
-    name: 'Sparks Pool Services',
+    name: 'Sparks Stack',
     description:
-      'Veteran-owned pool service company delivering crystal clear pools with military precision and integrity. Serving Pinellas County with residential and commercial pool cleaning services.',
-    link: { href: 'https://www.sparkspoolservices.com/', label: 'sparkspoolservices.com' },
-    logo: logoSparksPoolServices,
+      'Coming Soon',
+    link: { href: 'https://www.sparksstack.com/', label: 'sparksstack.com' },
+    logo: logoSparksStack,
   },
   {
     name: 'BusinessLocation',
