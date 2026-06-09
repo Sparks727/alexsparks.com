@@ -9,6 +9,7 @@ import {
   LinkedInIcon,
   XIcon,
   SteamIcon,
+  CursorIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.JPG'
 
@@ -138,6 +139,9 @@ export default function AlexSparksClearwater() {
             </SocialLink>
             <SocialLink href="https://steamcommunity.com/id/Sparks_up/" icon={SteamIcon} className="mt-4">
               View Steam Profile
+            </SocialLink>
+            <SocialLink href="https://cursor.com/@sparks" icon={CursorIcon} className="mt-4">
+              Follow on Cursor
             </SocialLink>
             <SocialLink
               href="mailto:sparksstack@gmail.com"

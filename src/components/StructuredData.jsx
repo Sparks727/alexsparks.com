@@ -19,7 +19,8 @@ export function PersonSchema() {
       "https://www.facebook.com/alex.sparks.96558",
       "https://github.com/Sparks727/",
       "https://www.linkedin.com/in/alex-sparks-%F0%9F%9A%80-41966a247/",
-      "https://steamcommunity.com/id/Sparks_up/"
+      "https://steamcommunity.com/id/Sparks_up/",
+      "https://cursor.com/@sparks"
     ],
     "jobTitle": "Founder & Web Developer",
     "worksFor": {
@@ -99,7 +100,8 @@ export function OrganizationSchema() {
       "https://www.facebook.com/alex.sparks.96558",
       "https://github.com/Sparks727/",
       "https://www.linkedin.com/in/alex-sparks-%F0%9F%9A%80-41966a247/",
-      "https://steamcommunity.com/id/Sparks_up/"
+      "https://steamcommunity.com/id/Sparks_up/",
+      "https://cursor.com/@sparks"
     ]
   }
 

@@ -12,7 +12,8 @@ import {
   LinkedInIcon,
   XIcon,
   FacebookIcon,
-  SteamIcon
+  SteamIcon,
+  CursorIcon,
 } from '@/components/SocialIcons'
 import {
   ReactIcon,
@@ -331,6 +332,11 @@ export default async function Home() {
               href="https://steamcommunity.com/id/Sparks_up/"
               aria-label="View Steam Profile"
               icon={SteamIcon}
+            />
+            <SocialLink
+              href="https://cursor.com/@sparks"
+              aria-label="Follow on Cursor"
+              icon={CursorIcon}
             />
           </div>
         </div>
