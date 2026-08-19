@@ -9,7 +9,7 @@ import logoBusinessLocation from '@/images/logos/businesslocation.png'
 import logoSparksStack from '@/images/logos/sparks-stack.png'
 import logoSparksPoolServices from '@/images/logos/sparkspoolservices.webp'
 import logoTHS from '@/images/logos/thsband.png'
-import logoMarkDietel from '@/images/logos/markdietel.webp'
+import logoMarkDietel from '@/images/logos/markdietel.png'
 import logoBobAndRonna from '@/images/logos/bobandronna.png'
 import logoWatters from '@/images/logos/watters.png'
 import logoGuttersPlus from '@/images/logos/guttersplus.png'
@@ -40,7 +40,7 @@ const projects = [
   {
     name: 'Sparks Stack',
     description:
-      'Coming Soon',
+      'Video game tracker and backlog manager. Track every game you\'ve ever played — 4,600+ titles across 30 platforms, from NES to Switch, PlayStation to Xbox.',
     link: { href: 'https://www.sparksstack.com/', label: 'sparksstack.com' },
     logo: logoSparksStack,
   },
@@ -138,7 +138,7 @@ export default function Profilo() {
               <Image
                 src={project.logo}
                 alt=""
-                className="h-8 w-8"
+                className="h-8 w-8 object-contain"
                 unoptimized
               />
             </div>
