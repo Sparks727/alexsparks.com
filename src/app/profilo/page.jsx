@@ -9,6 +9,11 @@ import logoBusinessLocation from '@/images/logos/businesslocation.png'
 import logoSparksStack from '@/images/logos/sparks-stack.png'
 import logoSparksPoolServices from '@/images/logos/sparkspoolservices.webp'
 import logoTHS from '@/images/logos/thsband.png'
+import logoMarkDietel from '@/images/logos/markdietel.webp'
+import logoBobAndRonna from '@/images/logos/bobandronna.png'
+import logoWatters from '@/images/logos/watters.png'
+import logoGuttersPlus from '@/images/logos/guttersplus.png'
+import logoKaseyPros from '@/images/logos/kaseypros.png'
 
 const projects = [
   {
@@ -59,6 +64,41 @@ const projects = [
       'A band dedicated to creating exceptional music and setting higher standards in the music industry.',
     link: { href: 'https://www.thsband.com/', label: 'thsband.com' },
     logo: logoTHS,
+  },
+  {
+    name: 'Mark Dietel Realty',
+    description:
+      'Trusted Central Indiana real estate brokerage helping buyers and sellers with proven processes, guaranteed sale programs, and omni marketing.',
+    link: { href: 'https://www.markdietel.com/', label: 'markdietel.com' },
+    logo: logoMarkDietel,
+  },
+  {
+    name: 'The Bob & Ronna Group',
+    description:
+      'The #1 real estate team in the Mid-Atlantic, providing high-volume agent opportunities with leads, training, and cutting-edge CRM and marketing tools.',
+    link: { href: 'https://www.joinbobandronna.com/', label: 'joinbobandronna.com' },
+    logo: logoBobAndRonna,
+  },
+  {
+    name: 'Watters International Realty',
+    description:
+      'Helping homeowners compare multiple offers and sell with flexible paths—cash offers, investor bids, or traditional listings—with trusted local experts.',
+    link: { href: 'https://www.wattersoffers.com/', label: 'wattersoffers.com' },
+    logo: logoWatters,
+  },
+  {
+    name: 'Gutters Plus Soffit and Fascia',
+    description:
+      'Family-owned gutter, soffit, and fascia specialists serving Pinellas County with installations, repairs, cleanouts, and exterior services.',
+    link: { href: 'https://www.guttersplusfl.com/', label: 'guttersplusfl.com' },
+    logo: logoGuttersPlus,
+  },
+  {
+    name: 'Kasey Pros',
+    description:
+      'Fantasy football advice app with draft comparisons, trade analysis, and ADP cheat sheets—powered by gut feelings and absolutely zero accountability.',
+    link: { href: 'https://kasey-pros.vercel.app/', label: 'kasey-pros.vercel.app' },
+    logo: logoKaseyPros,
   },
 ]
 
