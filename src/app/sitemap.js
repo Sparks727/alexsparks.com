@@ -28,12 +28,6 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/play`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
       url: `${baseUrl}/travel`,
       lastModified: now,
       changeFrequency: 'monthly',
