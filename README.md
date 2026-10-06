@@ -1,42 +1,51 @@
-# Spotlight
+# Alex Sparks
 
-Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Founder and autonomous problem solver, based in Clearwater, Florida.
 
-## Getting started
+I was born in Ohio and have lived in Florida since 1999. I started by taking Nintendo hardware apart to see why it worked. These days I build software that helps local businesses show up online without juggling a dozen tools.
 
-To get started with this template, first install the npm dependencies:
+This repository is the source for [alex-sparks.com](https://alex-sparks.com).
+
+## On the site
+
+- **Home and about** — who I am, and the work in progress
+- **Profilo** — OmniLocal, Sparks Stack, and other projects
+- **Travel** — a map of states I've made it to so far
+- **Tech stack** — what this site is built with
+
+Press `Ctrl+B` (or `Cmd+B` on a Mac) on the homepage if you would rather play Snake.
+
+## Work
+
+- [OmniLocal](https://www.omnilocal.com/) — co-founder. Local marketing and reputation software for agencies and small businesses.
+- [Sparks Stack](https://www.sparksstack.com/) — a video game tracker and backlog manager. Old habit, new interface.
+
+## Stack
+
+Next.js, React, Tailwind CSS, and Headless UI, deployed on Vercel.
+
+## Run it locally
+
+Install the dependencies:
 
 ```bash
 npm install
 ```
 
-Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
+Create a `.env.local` file in the project root:
 
 ```
-NEXT_PUBLIC_SITE_URL=https://example.com
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
-Next, run the development server:
+Start the dev server:
 
 ```bash
 npm run dev
 ```
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
-
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+Then open [http://localhost:3000](http://localhost:3000).
 
 ## License
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [MDX](https://mdxjs.com) - the MDX documentation
+This is my personal site. The interface started from the Tailwind UI Spotlight template, and that template (including changes derived from it) stays under the [Tailwind UI license](https://tailwindui.com/license). See `LICENSE.md`.
