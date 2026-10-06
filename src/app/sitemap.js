@@ -16,30 +16,6 @@ export default function sitemap() {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/alex-sparks`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/alex-sparks-tampa`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/alex-sparks-florida`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/alex-sparks-clearwater`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
       url: `${baseUrl}/profilo`,
       lastModified: now,
       changeFrequency: 'weekly',

@@ -74,8 +74,8 @@ export default function About() {
             In my free time as a kid, I would dissemble & help fix Microsoft hardware such as consoles and controllers.
             </p>
             <p>
-              I was born in Ohio but <Link href="/alex-sparks-florida" className="font-medium text-zinc-900 underline decoration-teal-500 underline-offset-2 transition hover:text-teal-500 dark:text-zinc-100 dark:hover:text-teal-400">Florida has been my home since 1999</Link>.
-              Living in the <Link href="/alex-sparks-tampa" className="font-medium text-zinc-900 underline decoration-teal-500 underline-offset-2 transition hover:text-teal-500 dark:text-zinc-100 dark:hover:text-teal-400">Tampa Bay area</Link>, I&apos;ve grown up understanding the unique needs of local businesses.
+              I was born in Ohio but Florida has been my home since 1999.
+              Living in the Tampa Bay area, I&apos;ve grown up understanding the unique needs of local businesses.
               When Im not diving into the world of technology, Im planning my next adventure. 
               Now a seasoned traveler, I have explored almost 20 states in the US and ventured abroad to destinations like the Netherlands, Germany, and Puerto Rico.
               At home, I enjoy family time with my partner Jordan, son Easton, and our canine companions, Balto (a Blue Heeler) and Kylo (a Blue Heeler/Staffordshire Terrier mix).

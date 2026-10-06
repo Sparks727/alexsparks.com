@@ -13,6 +13,26 @@ const nextConfig = {
         destination: '/profilo',
         permanent: true,
       },
+      {
+        source: '/alex-sparks',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/alex-sparks-florida',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/alex-sparks-tampa',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/alex-sparks-clearwater',
+        destination: '/about',
+        permanent: true,
+      },
     ]
   },
 }

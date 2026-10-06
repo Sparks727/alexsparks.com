@@ -307,7 +307,7 @@ export default async function Home() {
             Founder & Autonomous Problem Solver.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m <Link href="/alex-sparks" className="font-medium text-zinc-900 underline decoration-teal-500 underline-offset-2 transition hover:text-teal-500 dark:text-zinc-100 dark:hover:text-teal-400">Alex Sparks</Link>, a junior web developer and entrepreneur based in <Link href="/alex-sparks-clearwater" className="font-medium text-zinc-900 underline decoration-teal-500 underline-offset-2 transition hover:text-teal-500 dark:text-zinc-100 dark:hover:text-teal-400">Clearwater, FL</Link>, serving businesses throughout <Link href="/alex-sparks-florida" className="font-medium text-zinc-900 underline decoration-teal-500 underline-offset-2 transition hover:text-teal-500 dark:text-zinc-100 dark:hover:text-teal-400">Florida</Link>.
+            I&apos;m <Link href="/about" className="font-medium text-zinc-900 underline decoration-teal-500 underline-offset-2 transition hover:text-teal-500 dark:text-zinc-100 dark:hover:text-teal-400">Alex Sparks</Link>, a junior web developer and entrepreneur based in Clearwater, FL, serving businesses throughout Florida.
             My latest project, OmniLocal, is an all-in-one software that 
             helps businesses take control of their local online presence.
           </p>
