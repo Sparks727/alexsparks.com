@@ -13,8 +13,6 @@ This repository is the source for [alex-sparks.com](https://alex-sparks.com).
 - **Travel** — a map of states I've made it to so far
 - **Tech stack** — what this site is built with
 
-Press `Ctrl+B` (or `Cmd+B` on a Mac) on the homepage if you would rather play Snake.
-
 ## Work
 
 - [OmniLocal](https://www.omnilocal.com/) — co-founder. Local marketing and reputation software for agencies and small businesses.

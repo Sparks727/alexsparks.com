@@ -5,7 +5,6 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import GamesEasterEgg from './GamesEasterEgg'
 import {
   GitHubIcon,
   InstagramIcon,
@@ -300,7 +299,6 @@ function TechStackPreview() {
 export default async function Home() {
   return (
     <>
-      <GamesEasterEgg />
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
