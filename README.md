@@ -12,6 +12,7 @@ This repository is the source for [alex-sparks.com](https://alex-sparks.com).
 - **Profilo** — OmniLocal, Sparks Stack, and other projects
 - **Travel** — a map of states I've made it to so far
 - **Tech stack** — what this site is built with
+- **Play** — a short pixel walk around Largo Central Park
 
 Press `Ctrl+B` (or `Cmd+B` on a Mac) on the homepage if you would rather play Snake.
 
