@@ -22,7 +22,7 @@ export function PersonSchema() {
       "https://steamcommunity.com/id/Sparks_up/",
       "https://cursor.com/@sparks"
     ],
-    "jobTitle": "Founder & Web Developer",
+    "jobTitle": "Autonomous Problem Solver, Web Developer, and Founder",
     "worksFor": {
       "@type": "Organization",
       "name": "OmniLocal"
@@ -40,7 +40,7 @@ export function PersonSchema() {
       "Business Software",
       "Entrepreneurship"
     ],
-    "description": "Alex Sparks is a web developer and entrepreneur based in Clearwater, Florida. Founder of OmniLocal, helping businesses control their online presence."
+    "description": "Alex Sparks is an autonomous problem solver, web developer, and the founder of OmniLocal."
   }
 
   return <StructuredData data={personSchema} />
@@ -50,7 +50,7 @@ export function LocalBusinessSchema() {
   const businessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Alex Sparks - Web Developer & Entrepreneur",
+    "name": "Alex Sparks - Autonomous Problem Solver, Web Developer, and Founder of OmniLocal",
     "image": "https://alex-sparks.com/images/portrait.JPG",
     "@id": "https://alex-sparks.com",
     "url": "https://alex-sparks.com",

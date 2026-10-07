@@ -12,7 +12,7 @@ export const metadata = {
     default: 'Alex Sparks - Founder & Autonomous Problem Solver',
   },
   description:
-    'I\'m Alex Sparks, a junior web developer and entrepreneur based in Clearwater, FL. My latest project, OmniLocal, is an all-in-one software that helps businesses take control of their local online presence.',
+    'Alex Sparks is an autonomous problem solver, web developer, and the founder of OmniLocal. Based in Clearwater, FL, he builds software that helps businesses take control of their local online presence.',
   keywords: [
     'Alex Sparks',
     'Founder',
@@ -43,7 +43,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Alex Sparks - Founder & Autonomous Problem Solver',
-    description: 'I\'m Alex Sparks, a junior web developer and entrepreneur based in Clearwater, FL. Creator of OmniLocal, helping businesses control their online presence.',
+    description: 'Alex Sparks is an autonomous problem solver, web developer, and the founder of OmniLocal, helping businesses control their local online presence.',
     url: 'https://alex-sparks.com',
     siteName: 'Alex Sparks',
     locale: 'en_US',
@@ -56,7 +56,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Alex Sparks - Founder & Autonomous Problem Solver',
-    description: 'Junior web developer and entrepreneur based in Clearwater, FL. Creator of OmniLocal.',
+    description: 'Alex Sparks is an autonomous problem solver, web developer, and the founder of OmniLocal.',
     creator: '@AlexOmniLocal',
   }
 }
