@@ -14,6 +14,7 @@ import logoBobAndRonna from '@/images/logos/bobandronna.png'
 import logoWatters from '@/images/logos/watters.png'
 import logoGuttersPlus from '@/images/logos/guttersplus.png'
 import logoKaseyPros from '@/images/logos/kaseypros.png'
+import logoBelleairBreakers from '@/images/logos/belleair-breakers.png'
 
 const projects = [
   {
@@ -96,9 +97,19 @@ const projects = [
   {
     name: 'Kasey Pros',
     description:
-      'Fantasy football advice app with draft comparisons, trade analysis, and ADP cheat sheets—powered by gut feelings and absolutely zero accountability.',
+      'Blue Sky JobSite Golf League—the official, totally unofficial company leaderboard. Rankings from scoring average and round stats, movement after each outing, and a drag-and-drop team builder with PDF export for Friday matches.',
     link: { href: 'https://kasey-pros.vercel.app/', label: 'kasey-pros.vercel.app' },
     logo: logoKaseyPros,
+  },
+  {
+    name: 'Belleair Breakers',
+    description:
+      'Post-game snack lineup for the team: one family per game (two for the Jamboree). Parents claim an open slot, pick their player, and see who is still on the roster without a snack day.',
+    link: {
+      href: 'https://belleair-breakers.vercel.app/',
+      label: 'belleair-breakers.vercel.app',
+    },
+    logo: logoBelleairBreakers,
   },
 ]
 
